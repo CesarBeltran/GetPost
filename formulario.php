@@ -7,7 +7,7 @@
 
 
 <body>
-	<hgroup> <h1> Formulario enviado por el m&eacute;todo GET </h1> </hgroup>
+	<hgroup> <h1> <font color="#B40404"> Formulario enviado por el m&eacute;todo GET </font> </h1> </hgroup>
 	<form name = "envia-get_frm" action="envia-datos.php" method="get" enctype="application/x-www-form-urlencoded"> 
 		<label> Ingresa tu Nombre:</label>
 		<input type="text" name = "nombre_txt">
@@ -15,11 +15,11 @@
 		<label> Ingresa tu Password:</label>
 		<input type="password" name = "password_txt">
 		<br/> <br/>
- 		<input type="submit" name="Enviar_btn" value="Envia GET"/>
-	</form>
+ 		<input type="submit" name="enviar_btn" value="Envia GET"/>
+	</form> 
 
 
-	<hgroup> <h1> Formulario enviado por el m&eacute;todo POST </h1> </hgroup>
+	<hgroup> <h1> <font color="#B40404"> Formulario enviado por el m&eacute;todo POST </font></h1> </hgroup>
 	<form name = "envia-post_frm" action="envia-datos.php" method="post" enctype="application/x-www-form-urlencoded"> 
 		<label> Ingresa tu Nombre:</label>
 		<input type="text" name = "nombre_txt">
@@ -27,7 +27,7 @@
 		<label> Ingresa tu Password:</label>
 		<input type="password" name = "password_txt">
 		<br/> <br/>
- 		<input type="submit" name="Enviar_btn" value="Envia POST"/>
+ 		<input type="submit" name="enviar_btn" value="Envia POST"/>
 	</form>
 
 
